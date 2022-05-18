@@ -1,0 +1,129 @@
+*:focus {
+  outline: none;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #c1cbb2;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+.wrapper {
+  background-color: #c1cbb2;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: flex-start;
+  font-size: calc(10px + 2vmin);
+  text-align: left;
+}
+
+.title {
+  font-weight: 400;
+  color: gray;
+  margin-block: 30px 25px;
+}
+
+.title-password {
+  margin-block: 50px 30px;
+  font-weight: 400;
+  color: gray;
+}
+
+.container {
+  padding: 100px;
+}
+
+.email-input {
+  width: 350px;
+  padding: 20px 30px;
+  margin-bottom: 8px;
+  font-size: 1.5rem;
+  border: 0;
+
+  border-radius: 9px;
+  background: #c1cbb2;
+  box-shadow: inset 8px 8px 16px #94a778, inset -8px -8px 16px #efffd5;
+}
+
+.password-input {
+  width: 350px;
+  padding: 20px 30px;
+  margin-bottom: 8px;
+  font-size: 1.5rem;
+  border: 0;
+
+  border-radius: 9px;
+  background: #c1cbb2;
+  box-shadow: inset 8px 8px 16px #94a778, inset -8px -8px 16px #efffd5;
+}
+
+.show-password-btn {
+  width: 73px;
+  padding: 23px 5px;
+  margin-left: 30px;
+  font-size: 1.3rem;
+  color: gray;
+  border: 0;
+
+  border-radius: 50px;
+  background: #c1cbb2;
+  box-shadow: -8px -8px 16px #94a778, 8px 8px 16px #efffd5;
+}
+
+.show-password-btn:hover {
+  background: #b2bca3;
+}
+
+.show-password-btn:active {
+  background: #c9d6b8;
+}
+
+.message {
+  margin-top: 0px;
+  font-size: 1.5rem;
+}
+
+.success {
+  color: rgb(0, 0, 171);
+}
+
+.error {
+  color: rgb(102, 2, 2);
+}
+
+.register-btn {
+  width: 100%;
+  padding: 18px 0;
+  margin-block: 70px;
+  font-size: 2.1rem;
+  font-weight: 400;
+  letter-spacing: 0.9px;
+  color: #49503f;
+  border: 0;
+
+  border-radius: 9px;
+  background: #c1cbb2;
+  box-shadow: -8px -8px 16px #94a778, 8px 8px 16px #efffd5;
+}
+
+.register-btn:hover {
+  background: #b2bca3;
+}
+
+.register-btn:active {
+  background: #939c86;
+}
